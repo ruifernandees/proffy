@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import PageHeader from '../../components/PageHeader';
+import TeacherItem from '../../components/TeacherItem';
 
 import './styles.css';
 
@@ -26,6 +27,13 @@ const TeacherList = () => {
           </div>
         </form>
       </PageHeader>
+
+      <main>
+        <TeacherItem />
+        <TeacherItem />
+        <TeacherItem />
+        <TeacherItem />
+      </main>
     </div>
   );
 };
