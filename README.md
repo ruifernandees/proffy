@@ -11,12 +11,37 @@ Proffy is a platform that we can hire private teachers. This application was cre
 
 ## 🚀 Run on your machine
 Note: it requires yarn installed 
-```console
+
+> Initial steps
+```bash
 $ git clone https://github.com/ruifernandees/proffy.git
+$ cd proffy
+```
+
+> Run back-end (API REST)
+```bash
+
+# Access the back-end folder
 $ cd server
+
+# Install all dependencies
 $ yarn install
+
+# Run all migrations
+$ yarn knex:migrate
+
+# Start the server
 $ yarn start
-$ cd ../web
+
+```
+> Run web front-end
+```bash
+# Access the web front-end folder
+$ cd web
+
+# Install all dependencies
 $ yarn install
+
+# Run the web project
 $ yarn start
 ```
