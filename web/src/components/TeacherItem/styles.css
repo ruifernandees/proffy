@@ -75,6 +75,11 @@
     background: var(--color-secondary-dark);
 }
 
+
+/**
+ * MEDIA QUERIES
+ */
+
 @media (min-width: 700px) {
     .teacher-item header,
     .teacher-item footer {

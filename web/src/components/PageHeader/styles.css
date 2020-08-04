@@ -40,6 +40,11 @@
     color: var(--color-title-in-primary);
 }
 
+
+/**
+ * MEDIA QUERIES
+ */
+
 @media (min-width: 700px) {
     .page-header {
         height: 340px;

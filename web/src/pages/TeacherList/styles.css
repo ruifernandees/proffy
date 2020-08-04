@@ -51,6 +51,11 @@
     width: 90%;
 }
 
+
+/**
+ * MEDIA QUERIES
+ */
+
 @media (min-width: 700px) {
     #page-teacher-list {
         max-width: 100%;
