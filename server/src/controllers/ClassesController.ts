@@ -87,6 +87,7 @@ class ClassesController {
         
             return response.status(201).send();
         } catch (exception) {
+            console.log(exception);
             await trx.rollback();
     
             return response.status(400).json({
