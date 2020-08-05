@@ -4,32 +4,41 @@ import wppicon from '../../assets/images/icons/whatsapp.svg';
 
 import './styles.css';
 
-const TeacherItem = () => {
+interface TeacherItemProps {
+  teacher: {
+    avatar: string;
+    bio: string;
+    cost: number;
+    id: number;
+    name: string;
+    subject: string;
+    whatsapp: string;
+  }
+}
+
+const TeacherItem: React.FC<TeacherItemProps> = ({ teacher }) => {
+
   return (
     <article className="teacher-item">
       <header>
-        <img src="https://avatars0.githubusercontent.com/u/23262436?s=460&u=437262bd3a96ef210d327590428c902701bc2585&v=4" alt="Rui Fernandes"/>
+        <img src={teacher.avatar} alt={teacher.name}/>
         <div>
-          <strong>Rui Fernandes</strong>
-          <span>Programação</span>
+          <strong>{teacher.name}</strong>
+          <span>{teacher.subject}</span>
         </div>
       </header>
 
-      <p>
-        Apaixonado pela área de desenvolvimento de softwares. 
-        <br/> <br/>
-        Comecei aos 13 anos, em 2016, com meus estudos de Algoritmos e, em seguida, Java, HTML, CSS, JS, PHP e entre outras tecnologias, por conta própria, conciliando com o Ensino Médio. 
-      </p>
+      <p>{teacher.bio}</p>
 
       <footer>
         <p>
           Preço/hora
-          <strong>R$ 80,00</strong>
+          <strong>R$ {teacher.cost}</strong>
         </p>
-        <button type="button">
+        <a href={`https://wa.me/${teacher.whatsapp}`}>
           <img src={wppicon} alt="Whatsapp"/>
           Entrar em contato
-        </button>
+        </a>
       </footer>
     </article>
   );
