@@ -8,6 +8,7 @@ Proffy is a platform that we can hire private teachers. This application was cre
 ## 💻 Technologies
 - NodeJS (back-end)
 - ReactJS (web front-end)
+- React Native (mobile front-end)
 
 ## 🚀 Run on your machine
 Note: it requires yarn installed 
