@@ -38,6 +38,14 @@ const styles = StyleSheet.create({
     width: '48%'
   },
 
+  messageFilter: {
+    color: '#FFF',
+    fontFamily: 'Archivo_400Regular',
+    fontSize: 16,
+    alignSelf: 'center',
+    marginRight: 10
+  },
+
   submitButton: {
     backgroundColor: '#04d361',
     height: 56,
