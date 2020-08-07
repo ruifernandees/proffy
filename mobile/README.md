@@ -1,36 +1,25 @@
-# Proffy Mobile Version
+# Proffy Mobile
 ## Screens
 
+<h3 align="center">Landing page:</h3>
+<p align="center">
+<img src="../prints/mobile/landing.jpg" width="300" alt="Landing page">
+</p>
 
-<div style="display: flex; flex-wrap: wrap; margin: 0 auto;">
 
-<div style="display: flex; flex-direction: column; margin-right: 8px">
+<h3 align="center">Filter for proffys:</h3>
+<p align="center">
+<img src="../prints/mobile/filter-proffy.jpg" width="300" alt="Filter for proffys">
+</p>
 
-### Landing page
-<img src="../prints/mobile/landing.jpg" style="width: 200px" alt="Landing page">
 
-</div>
+<h3 align="center">Listing proffys:</h3>
+<p align="center">
+<img src="../prints/mobile/list-proffy.jpg" width="300" alt="Listing proffys">
+</p>
 
-<div style="display: flex; flex-direction: column; margin-left: 8px">
 
-### Filter for proffys
-<img src="../prints/mobile/filter-proffy.jpg" style="width: 200px" alt="Filter for proffys">
-
-</div>
-
-</div>
-
-<div style="display: flex; flex-wrap: wrap; margin: 0 auto;">
-<div style="display: flex; flex-direction: column; margin-right: 8px">
-
-### Listing proffys
-<img src="../prints/mobile/list-proffy.jpg" style="width: 200px" alt="Listing proffys">
-
-</div>
-<div style="display: flex; flex-direction: column; margin-left: 8px">
-
-### Favorite proffys
-<img src="../prints/mobile/favorites.jpg" style="width: 200px" alt="Favorite proffys">
-
-</div>
-</div>
+<h3 align="center">Favorite proffys:</h3>
+<p align="center">
+<img src="../prints/mobile/favorites.jpg" width="300" alt="Favorite proffys">
+</p>
